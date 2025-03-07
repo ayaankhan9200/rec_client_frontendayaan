@@ -75,7 +75,7 @@ const Register = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post("https://mern-recipe-app1-server.onrender.com/auth/register", {
+      await axios.post("https://rec-server-backendayaan.onrender.com/auth/register", {
         username,
         password,
       });
