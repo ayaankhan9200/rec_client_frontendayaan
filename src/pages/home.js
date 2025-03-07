@@ -35,7 +35,7 @@ export const Home = () => {
 
   const saveRecipe = async (recipeID) => {
     try {
-      const response = await axios.put("https://mern-recipe-app1-server.onrender.com/recipes", {
+      const response = await axios.put("https://rec-server-backendayaan.onrender.com/recipes", {
         recipeID,
         userID,
       });
